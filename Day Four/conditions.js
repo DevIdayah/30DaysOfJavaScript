@@ -44,3 +44,24 @@ if (age > 23) {
 } else {
     console.log(`she is underage`)
 }
+
+let names = 'firstBorn'
+switch (names) {
+    case 'firstBorn':
+        console.log(`Her name is MARIAM`)
+        break
+    case 'secondBorn':
+        console.log(`Her name is HIDAYAT`)
+        break
+    case 'thirdBorn':
+        console.log(`Her name is MAZEEDAH`)
+        break
+    case 'fourthBorn':
+        console.log(`Her name is FAREEDAH`)
+        break
+    case 'fifthBorn':
+        console.log(`Her name is HALEEMAH`)
+        break
+    default:
+        console.log(`His name is AL-AMEEN`)
+}
