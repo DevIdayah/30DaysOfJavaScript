@@ -45,6 +45,7 @@ if (age > 23) {
     console.log(`she is underage`)
 }
 
+//SWITCH STATEMENT
 let names = 'firstBorn'
 switch (names) {
     case 'firstBorn':
@@ -64,4 +65,70 @@ switch (names) {
         break
     default:
         console.log(`His name is AL-AMEEN`)
+}
+
+let weather = 'rainy'
+switch (weather) {
+    case 'cloudy':
+        console.log(`It might be cold, you need a jacket.`)
+        break
+    case 'rainy':
+        console.log(`You need a rain coat.`)
+        break
+    case 'sunny':
+        console.log(`You can go out freely`)
+        break
+    default:
+        console.log(`You don\'t need a rain coat`)
+}
+
+let namess = prompt('ENTER YOUR POSITION')
+let enter = namess
+switch (namess) {
+    case 'firstBorn':
+        console.log(`Her name is MARIAM`)
+        break
+    case 'secondBorn':
+        console.log(`Her name is HIDAYAT`)
+        break
+    case 'thirdBorn':
+        console.log(`Her name is MAZEEDAH`)
+        break
+    case 'fourthBorn':
+        console.log(`Her name is FAREEDAH`)
+        break
+    case 'fifthBorn':
+        console.log(`Her name is HALEEMAH`)
+        break
+    default:
+        console.log(`His name is AL-AMEEN`)
+}
+
+let dayUserInput = prompt('What day is today ?')
+let day = dayUserInput.toLowerCase()
+
+switch (day) {
+    case 'monday':
+        console.log('Today is Monday')
+        break
+    case 'tuesday':
+        console.log('Today is Tuesday')
+        break
+    case 'wednesday':
+        console.log('Today is Wednesday')
+        break
+    case 'thursday':
+        console.log('Today is Thursday')
+        break
+    case 'friday':
+        console.log('Today is Friday')
+        break
+    case 'saturday':
+        console.log('Today is Saturday')
+        break
+    case 'sunday':
+        console.log('Today is Sunday')
+        break
+    default:
+        console.log('It is not a week day.')
 }
