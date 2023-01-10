@@ -1,4 +1,4 @@
-/*//IF STATEMENT
+//IF STATEMENT
 let rain = true
 if (rain) {
     console.log(`you need a rain coat`)
@@ -148,10 +148,10 @@ switch (num) {
         console.log('Entered value was not a number');
 }
 
-/*let agee = parseInt(prompt('Enter a value'))
+let agee = parseInt(prompt('Enter a value'))
 
-if(agee >= 18){
+if (agee >= 18) {
     console.log('you are eligible')
-} else{
+} else {
     console.log(`you need ${18 - agee} years more to be 18`)
-}*/
+}
