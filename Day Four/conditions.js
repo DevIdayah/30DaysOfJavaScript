@@ -1,4 +1,4 @@
-//IF STATEMENT
+/*//IF STATEMENT
 let rain = true
 if (rain) {
     console.log(`you need a rain coat`)
@@ -132,3 +132,26 @@ switch (day) {
     default:
         console.log('It is not a week day.')
 }
+
+let num = prompt('Enter number');
+switch (num) {
+    case num > 0:
+        console.log('Number is positive');
+        break;
+    case num == 0:
+        console.log('Numbers is zero');
+        break;
+    case num < 0:
+        console.log('Number is negative');
+        break;
+    default:
+        console.log('Entered value was not a number');
+}
+
+/*let agee = parseInt(prompt('Enter a value'))
+
+if(agee >= 18){
+    console.log('you are eligible')
+} else{
+    console.log(`you need ${18 - agee} years more to be 18`)
+}*/
