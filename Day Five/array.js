@@ -49,14 +49,14 @@ let skills = 'HTML, CSS ,TAILWINDCSS, JAVASCRIPT, REACT'
 const mySkills = skills.split(',')
 console.log(mySkills)
 
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
+const webbTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
 ] // List of web technologies
 
 console.log(webTechs)        // all the array items
@@ -66,3 +66,24 @@ console.log(webTechs[6])     //  -> MongoDB
 
 let lastIndex = webTechs.length - 1
 console.log(webTechs[lastIndex])
+
+
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+]
+
+countries[0] = 'Afghanistan'  // Replacing Albania by Afghanistan
+let lastIndexx = countries.length - 1
+countries[lastIndex] = 'Korea' // Replacing Kenya by Korea
+
+console.log(countries)
